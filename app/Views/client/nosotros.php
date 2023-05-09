@@ -29,9 +29,8 @@
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <p class="d-inline-block border rounded-pill py-1 px-4">About Us</p>
-                    <h1 class="mb-4">Why You Should Trust Us? Get Know About Us!</h1>
-                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
+                    <h1 class="mb-4">¿Por qué debería confiar en nosotros? Conozca acerca de nosotros!</h1>
+                    <p>Nuestro consultorio médico de salud es una organización sin fines de lucro comprometida con brindar atención médica de alta calidad y asequible a nuestra comunidad. Fundada en el año 2015, hemos servido a pacientes de todas las edades y orígenes, y nos enorgullece ofrecer un enfoque integral de la atención médica. Nuestros médicos y personal están altamente capacitados y tienen una amplia experiencia en diversas áreas de la atención médica, incluyendo medicina familiar, pediatría, ginecología, geriatría y más. Nuestro consultorio médico cuenta con tecnología médica de última generación y un ambiente cálido y acogedor para nuestros pacientes.</p>
                     <p><i class="far fa-check-circle text-primary me-3"></i>Quality health care</p>
                     <p><i class="far fa-check-circle text-primary me-3"></i>Only Qualified Doctors</p>
                     <p><i class="far fa-check-circle text-primary me-3"></i>Medical Research Professionals</p>
