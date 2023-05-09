@@ -1,7 +1,4 @@
-
-
-
-    <!-- Full Screen Search Start -->
+<!-- Full Screen Search Start -->
     <div class="modal fade" id="searchModal" tabindex="-1">
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
@@ -68,25 +65,22 @@
             <div class="row gx-0">
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
                     <div class="bg-primary d-flex flex-column p-5" style="height: 300px;">
-                        <h3 class="text-white mb-3">Opening Hours</h3>
+                        <h3 class="text-white mb-3">Horarios de atención</h3>
                         <div class="d-flex justify-content-between text-white mb-3">
-                            <h6 class="text-white mb-0">Mon - Fri</h6>
-                            <p class="mb-0"> 8:00am - 9:00pm</p>
+                            <h6 class="text-white mb-0">Lunes - Viernes</h6>
+                            <p class="mb-0"> 8:00 am - 9:00 pm</p>
                         </div>
                         <div class="d-flex justify-content-between text-white mb-3">
-                            <h6 class="text-white mb-0">Saturday</h6>
-                            <p class="mb-0"> 8:00am - 7:00pm</p>
+                            <h6 class="text-white mb-0">Sábados</h6>
+                            <p class="mb-0"> 10:00 am - 2:00 pm</p>
                         </div>
-                        <div class="d-flex justify-content-between text-white mb-3">
-                            <h6 class="text-white mb-0">Sunday</h6>
-                            <p class="mb-0"> 8:00am - 5:00pm</p>
-                        </div>
-                        <a class="btn btn-light" href="">Appointment</a>
+            
+                        <a class="btn btn-light" href="">Reservar Cita</a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
                     <div class="bg-dark d-flex flex-column p-5" style="height: 300px;">
-                        <h3 class="text-white mb-3">Search A Doctor</h3>
+                        <h3 class="text-white mb-3">Buscar doctor</h3>
                         <div class="date mb-3" id="date" data-target-input="nearest">
                             <input type="text" class="form-control bg-light border-0 datetimepicker-input"
                                 placeholder="Appointment Date" data-target="#date" data-toggle="datetimepicker" style="height: 40px;">
@@ -97,14 +91,14 @@
                             <option value="2">Service 2</option>
                             <option value="3">Service 3</option>
                         </select>
-                        <a class="btn btn-light" href="">Search Doctor</a>
+                        <a class="btn btn-light" href="">Buscar</a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
                     <div class="bg-secondary d-flex flex-column p-5" style="height: 300px;">
-                        <h3 class="text-white mb-3">Make Appointment</h3>
-                        <p class="text-white">Ipsum erat ipsum dolor clita rebum no rebum dolores labore, ipsum magna at eos et eos amet.</p>
-                        <h2 class="text-white mb-0">+012 345 6789</h2>
+                        <h3 class="text-white mb-3">Llámanos</h3>
+                        <p class="text-white">Para separar tu cita médica puedes llamar al siguiente número</p>
+                        <h2 class="text-white mb-0">910976299</h2>
                     </div>
                 </div>
             </div>
@@ -269,9 +263,9 @@
                 </div>
                 <div class="col-lg-5 service-item wow zoomIn" data-wow-delay="0.9s">
                     <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4">
-                        <h3 class="text-white mb-3">Make Appointment</h3>
+                        <h3 class="text-white mb-3">Reservar cita</h3>
                         <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
-                        <h2 class="text-white mb-0">+123456789</h2>
+                        <h2 class="text-white mb-0">1111111111</h2>
                     </div>
                 </div>
             </div>
@@ -309,7 +303,7 @@
                     </div>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo eirmod magna dolore erat amet</p>
                     <h5 class="text-uppercase text-primary wow fadeInUp" data-wow-delay="0.3s">Call for Appointment</h5>
-                    <h1 class="wow fadeInUp" data-wow-delay="0.6s">+012 345 6789</h1>
+                    <h1 class="wow fadeInUp" data-wow-delay="0.6s">910976299</h1>
                 </div>
                 <div class="col-lg-7">
                     <div class="owl-carousel price-carousel wow zoomIn" data-wow-delay="0.9s">

@@ -220,7 +220,7 @@
 
     <div class="heroe">
 
-        <h1>HOLA LA ALINDOR <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
+        <h1>hello <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
 
         <h2>The small framework with powerful features</h2>
 
