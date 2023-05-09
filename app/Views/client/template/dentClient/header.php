@@ -73,10 +73,10 @@
             <div class="col-md-6 text-center text-lg-end">
                 <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
                     <div class="me-3 pe-3 border-end py-2">
-                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>info@example.com</p>
+                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>famisalud@gmail.com</p>
                     </div>
                     <div class="py-2">
-                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</p>
+                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>910976299</p>
                     </div>
                 </div>
             </div>
@@ -99,35 +99,12 @@
             <div class="navbar-nav ms-auto py-0">
                 <a href="<?= base_url() ?>" class="nav-item nav-link active">Home</a>
                 <a href="<?= base_url() ?>nosotros" class="nav-item nav-link">Nosotros</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
+                <a href="service.html" class="nav-item nav-link">Servicios</a>
                 <a href="<?= base_url() ?>login" class="nav-item nav-link">Login</a>
-                
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="price.html" class="dropdown-item">Pricing Plan</a>
-                        <a href="team.html" class="dropdown-item">Our Dentist</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="appointment.html" class="dropdown-item">CITA</a>
-                    </div>
-                </div>
-
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
-
-                <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Contact</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="price.html" class="dropdown-item">telefono</a>
-                        <a href="team.html" class="dropdown-item">Our Dentist</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="appointment.html" class="dropdown-item">CITA</a>
-                    </div>
-                </div>
-
-
+                <a href="contact.html" class="nav-item nav-link">Contactos</a>
             </div>
             <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
-            <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">CITA</a>
+            <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">RESERVAR CITA</a>
         </div>
     </nav>
     <!-- Navbar End -->

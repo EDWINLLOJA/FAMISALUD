@@ -12,9 +12,7 @@
         </div>
     </div>
     <!-- Newsletter End -->
-    
- 
- <!-- Footer Start -->
+<!-- Footer Start -->
  <div class="container-fluid bg-dark text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -75px;">
         <div class="container pt-5">
             <div class="row g-5 pt-4">
