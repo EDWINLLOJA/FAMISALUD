@@ -1,0 +1,126 @@
+
+CREATE DATABASE famisalud;
+USE famisalud;
+CREATE TABLE rolUsuario(
+idRol   INT NOT NULL AUTO_INCREMENT,
+NombreRol VARCHAR(50),
+descripcion VARCHAR(50),
+estado INT,
+PRIMARY KEY (idRol)
+);
+
+CREATE TABLE estadoPersonal(
+idEstadoPersonal   INT NOT NULL AUTO_INCREMENT,
+EstadoPersonal VARCHAR(50),
+descripcion VARCHAR(50),
+estado INT,
+PRIMARY KEY (idEstadoPersonal)
+);
+CREATE TABLE paciente(
+idPaciente INT NOT NULL AUTO_INCREMENT,
+nombre VARCHAR(50),
+apellido VARCHAR(50),
+fechaNacimiento DATETIME,
+correo VARCHAR(50),
+DNI char(8),
+telefono INT,
+PRIMARY KEY (idPaciente)
+);
+
+CREATE TABLE usuario (
+  idUsuario INT NOT NULL AUTO_INCREMENT,
+  correo VARCHAR(50),
+  contraseña VARCHAR(50),
+  idRol INT,
+  idEstadoPersonal INT,
+  estado INT,
+  PRIMARY KEY (idUsuario),
+  FOREIGN KEY (idRol) REFERENCES rolUsuario(idRol),
+  FOREIGN KEY (idEstadoPersonal) REFERENCES estadoPersonal(idEstadoPersonal)
+);
+
+
+
+CREATE TABLE personal(
+idPersonal   INT NOT NULL AUTO_INCREMENT,
+nombre VARCHAR(50),
+apellido VARCHAR(50),
+fechaNacimiento datetime,
+correo VARCHAR(50),
+telefono INT,
+DNI char(8),
+PRIMARY KEY (idPersonal)
+);
+CREATE TABLE especialidad(
+idespecialidad   INT NOT NULL AUTO_INCREMENT,
+Especialidad VARCHAR(50),
+descripcion VARCHAR(50),
+estado INT,
+PRIMARY KEY (idespecialidad)
+);
+
+CREATE	TABLE especialidadPersonal(
+iddescespecialidad   INT NOT NULL AUTO_INCREMENT,
+idPersonal INT,
+idespecialidad INT,
+FOREIGN KEY (idPersonal) REFERENCES personal(idPersonal),
+FOREIGN KEY (idespecialidad) REFERENCES especialidad(idespecialidad),
+estado INT,
+PRIMARY KEY (iddescespecialidad)
+);
+
+CREATE TABLE descripcioPersonal(
+iddescripPersonal   INT NOT NULL AUTO_INCREMENT,
+idPersonal INT,
+idUsuario INT,
+idEstadoPersonal INT,
+FOREIGN KEY (idPersonal) REFERENCES personal(idPersonal),
+FOREIGN KEY (idUsuario) REFERENCES usuario(idUsuario),
+FOREIGN KEY (idEstadoPersonal) REFERENCES estadoPersonal(idEstadoPersonal),
+PRIMARY KEY (iddescripPersonal)
+);
+CREATE TABLE Horario(
+idHorario INT NOT NULL AUTO_INCREMENT,
+hora VARCHAR(15),
+fecha datetime,
+turno VARCHAR(20),
+idPersonal INT,
+FOREIGN KEY (idPersonal) REFERENCES personal(idPersonal),
+PRIMARY KEY (idHorario)
+);
+create table estadocita(
+idestadoCita INT NOT NULL AUTO_INCREMENT,
+nombre varchar(40),
+descripcion varchar(30),
+PRIMARY KEY (idestadoCita)
+);
+
+CREATE TABLE cita(
+idCita INT NOT NULL AUTO_INCREMENT,
+idHorario int,
+idPersonal INT,
+idPaciente INT,
+idespecialidad INT,
+idestadoCita INT,
+descripcion int,
+FOREIGN KEY (idHorario) REFERENCES Horario(idHorario),
+FOREIGN KEY (idPersonal) REFERENCES personal(idPersonal),
+FOREIGN KEY (idPaciente) REFERENCES paciente(idPaciente),
+FOREIGN KEY (idespecialidad) REFERENCES especialidad(idespecialidad),
+FOREIGN KEY (idestadoCita) REFERENCES estadocita(idestadoCita),
+PRIMARY KEY (idCita)
+
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
