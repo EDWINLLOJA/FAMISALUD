@@ -100,8 +100,8 @@
                 <a href="<?= base_url() ?>" class="nav-item nav-link active">Home</a>
                 <a href="<?= base_url() ?>nosotros" class="nav-item nav-link">Nosotros</a>
                 <a href="service.html" class="nav-item nav-link">Servicios</a>
-                <a href="<?= base_url() ?>login" class="nav-item nav-link">Login</a>
-                <a href="contact.html" class="nav-item nav-link">Contactos</a>
+                <a href="<?= base_url()?>dashboard" class="nav-item nav-link">Login</a>
+                <a href="<?= base_url()?>admingeneral" class="nav-item nav-link">Contactos</a>
             </div>
             <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
             <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">RESERVAR CITA</a>

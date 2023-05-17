@@ -30,15 +30,40 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Client::index');
 
+
+//------------------URL CLIENTE------
+$routes->get('/', 'Client::index');
+$routes->get('nosotros/', 'Client::nosotros');
 
 
 
 //-------------------URL ADMINISTRADOR--------------
 $routes->get('admin/', 'Home::admin');
 $routes->get('login/', 'Login::login');
-$routes->get('nosotros/', 'Client::nosotros');
+
+$routes->get('dashboard/', 'Admin::dashboard');
+$routes->get('cita/', 'Admin::cita');
+$routes->get('admingeneral/', 'Admin::admingeneral');
+//---Crear administrador---
+
+
+
+//--eSTADO CITA----
+$routes->get('crear_estado_cita/', 'Admin::crear_estado_cita');
+$routes->post('guardar_estadocita/', 'Admin::guardar_estadocita');
+$routes->get('editar_estadocita/(:num)', 'Admin::editar_estadocita/$1');
+$routes->post('actualizar_estadocita', 'Admin::actualizar_estadocita');
+$routes->get('borrar_estadocita/(:num)', 'Admin::borrar_estadocita/$1');
+
+/// ---------------------------- FIN ADMINISTRADOR---------------
+
+
+
+
+
+
+
 
 
 
