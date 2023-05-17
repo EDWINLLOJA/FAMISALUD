@@ -91,7 +91,7 @@ PRIMARY KEY (idHorario)
 create table estadocita(
 idestadoCita INT NOT NULL AUTO_INCREMENT,
 nombre varchar(40),
-descripcion varchar(30),
+descripcion varchar(250),
 PRIMARY KEY (idestadoCita)
 );
 
