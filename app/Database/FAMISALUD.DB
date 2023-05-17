@@ -109,18 +109,4 @@ FOREIGN KEY (idPaciente) REFERENCES paciente(idPaciente),
 FOREIGN KEY (idespecialidad) REFERENCES especialidad(idespecialidad),
 FOREIGN KEY (idestadoCita) REFERENCES estadocita(idestadoCita),
 PRIMARY KEY (idCita)
-
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
