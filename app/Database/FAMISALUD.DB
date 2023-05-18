@@ -109,7 +109,6 @@ FOREIGN KEY (idPaciente) REFERENCES paciente(idPaciente),
 FOREIGN KEY (idespecialidad) REFERENCES especialidad(idespecialidad),
 FOREIGN KEY (idestadoCita) REFERENCES estadocita(idestadoCita),
 PRIMARY KEY (idCita)
-
 );
 INSERT INTO `famisalud`.`estadocita` (`nombre`, `descripcion`) VALUES ( 'Activa', 'La cita fue reservada');
 INSERT INTO `famisalud`.`estadocita` (`nombre`, `descripcion`) VALUES ( 'Anulada', 'La cita fue anulada el 16 de junio del 2023');

@@ -2,20 +2,6 @@
 
 <link href="<?= base_url() ?>/public/kliClient/assets/css/style.css" rel="stylesheet">
 
-
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb text-uppercase mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">About</li>
-                </ol>
-            </nav>
-        </div>
-    </div>
     <!-- Page Header End -->
     <!-- About Start -->
     <div class="container-xxl py-5">
@@ -28,7 +14,6 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <p class="d-inline-block border rounded-pill py-1 px-4">About Us</p>
                     <h1 class="mb-4">¿Por qué debería confiar en nosotros? Conozca acerca de nosotros!</h1>
                     <p>Nuestro consultorio médico de salud es una organización sin fines de lucro comprometida con brindar atención médica de alta calidad y asequible a nuestra comunidad. Fundada en el año 2015, hemos servido a pacientes de todas las edades y orígenes, y nos enorgullece ofrecer un enfoque integral de la atención médica. Nuestros médicos y personal están altamente capacitados y tienen una amplia experiencia en diversas áreas de la atención médica, incluyendo medicina familiar, pediatría, ginecología, geriatría y más. Nuestro consultorio médico cuenta con tecnología médica de última generación y un ambiente cálido y acogedor para nuestros pacientes.</p>
                     <p><i class="far fa-check-circle text-primary me-3"></i>Quality health care</p>
