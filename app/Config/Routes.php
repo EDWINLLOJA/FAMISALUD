@@ -36,7 +36,19 @@ $routes->set404Override();
 $routes->get('/', 'Client::index');
 $routes->get('nosotros/', 'Client::nosotros');
 
+//--cita----
+$routes->get('reservarcita/', 'Client::reservarcita');
 
+
+
+//Horaario
+
+
+
+$routes->get('filtrardatoshorario/', 'HorarioController::filtrardatoshorario');
+
+
+//--------------------------FIN CLIENTE--------
 
 //-------------------URL ADMINISTRADOR--------------
 $routes->get('admin/', 'Home::admin');
@@ -49,12 +61,19 @@ $routes->get('admingeneral/', 'Admin::admingeneral');
 
 
 
-//--eSTADO CITA----
+//--estado cita----
 $routes->get('crear_estado_cita/', 'Admin::crear_estado_cita');
 $routes->post('guardar_estadocita/', 'Admin::guardar_estadocita');
 $routes->get('editar_estadocita/(:num)', 'Admin::editar_estadocita/$1');
 $routes->post('actualizar_estadocita', 'Admin::actualizar_estadocita');
 $routes->get('borrar_estadocita/(:num)', 'Admin::borrar_estadocita/$1');
+
+//calendar
+$routes->get('calendar/', 'Admin::calendar');
+
+
+
+
 
 /// ---------------------------- FIN ADMINISTRADOR---------------
 

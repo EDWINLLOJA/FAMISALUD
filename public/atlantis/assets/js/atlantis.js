@@ -292,11 +292,7 @@ $(document).ready(function(){
 
 
 	//Chat Open
-	$('.messages-contact .user a').on('click', function(e){
-		if(e.target.classList.contains('cerrar-orden')){
-			console.log('Agregar funcion de quitar platillo de la orden');
-			return;
-		}
+	$('.messages-contact .user a').on('click', function(){
 		$('.tab-chat').addClass('show-chat')
 	});
 

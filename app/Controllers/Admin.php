@@ -38,6 +38,24 @@ class Admin extends BaseController
         //return view('client/Dashboard');
         //return view('client/template/footer');
     }
+
+
+    public function  calendar()
+    {
+      
+
+      echo view('admin/template/headadmin');
+      echo view('admin/template/head');
+      echo view('admin/calendar/calendar');
+      echo view('admin/template/footadmin');
+
+        //return view('client/template/header');
+        //return view('client/Dashboard');
+        //return view('client/template/footer');
+    }
+
+
+   
     public function admingeneral()
     {
        

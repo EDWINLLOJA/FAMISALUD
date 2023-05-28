@@ -74,23 +74,64 @@
                             <p class="mb-0"> 10:00 am - 2:00 pm</p>
                         </div>
             
-                        <a class="btn btn-light" href="">Reservar Cita</a>
+                        <a class="btn btn-light" href="<?= base_url() ?>reservarcita">Reservar Cita</a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
                     <div class="bg-dark d-flex flex-column p-5" style="height: 300px;">
                         <h3 class="text-white mb-3">Buscar doctor</h3>
-                        <div class="date mb-3" id="date" data-target-input="nearest">
+                        <div class="date mb-3" id="date"  value ="buscardate" data-target-input="nearest">
                             <input type="text" class="form-control bg-light border-0 datetimepicker-input"
                                 placeholder="Appointment Date" data-target="#date" data-toggle="datetimepicker" style="height: 40px;">
                         </div>
+                        <a class="btn btn-light" href="">Buscar</a>
+                        <table class="table align-items-center mb-0" id="data-list">
+                                    <!-- End Navbar -->
+                                <thead>
+                                    <tr>
+                                        <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7"> ID_CATEGORIA</th>
+
+
+                                        <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">NOMBRE_CATEGORIA</th>
+                                        <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">DES_CATEGORIA</th>
+                                        <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">ACCIONES</th>
+                                    
+                                        <th class="text-secondary opacity-7"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php foreach ($Horario as $citas) :  ?>
+                                        <tr>
+
+                                            <td><span class="text-xs font-weight-bold"><?= $citas['idHorario']; ?></span></td>
+                                            <td><span class="text-xs font-weight-bold"><?= $citas['hora']; ?></span></td>
+                                            <td><span class="text-xs font-weight-bold"><?= $citas['fecha']; ?></span></td>
+
+                                            <td class="text-lg pe-5">
+                                                <span type="button" id="options" data-bs-toggle="dropdown"><i class="fa-solid fa-list"></i></span>
+                                                <ul class="dropdown-menu" aria-labelledby="options">
+                                                    <li><a class="dropdown-item" href="<?= base_url('editar_estadocita/' . $citas['idHorario']) ?>">editar</a></li>
+                                                    <li><a class="dropdown-item" href="<?= base_url('borrar_estadocita/' . $citas['idHorario']) ?>">Eliminar</a></li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    <?php endforeach; ?>
+                                </tbody>
+                            </table>
+
+
+
+
+
+
+
                         <select class="form-select bg-light border-0 mb-3" style="height: 40px;">
                             <option selected>Select A Service</option>
                             <option value="1">Service 1</option>
                             <option value="2">Service 2</option>
                             <option value="3">Service 3</option>
                         </select>
-                        <a class="btn btn-light" href="">Buscar</a>
+                        <a class="btn btn-light" href="#" >Buscar</a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
@@ -134,69 +175,7 @@
         </div>
     </div>
     <!-- About End -->
-
-
-    <!-- Appointment Start -->
-    <div class="container-fluid bg-primary bg-appointment my-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-6 py-5">
-                    <div class="py-5">
-                        <h1 class="display-5 text-white mb-4">We Are A Certified and Award Winning Dental Clinic You Can Trust</h1>
-                        <p class="text-white mb-0">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
-                        <h1 class="text-white mb-4">Make Appointment</h1>
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select Doctor</option>
-                                        <option value="1">Doctor 1</option>
-                                        <option value="2">Doctor 2</option>
-                                        <option value="3">Doctor 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <div class="date" id="date1" data-target-input="nearest">
-                                        <input type="text"
-                                            class="form-control bg-light border-0 datetimepicker-input"
-                                            placeholder="Appointment Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <div class="time" id="time1" data-target-input="nearest">
-                                        <input type="text"
-                                            class="form-control bg-light border-0 datetimepicker-input"
-                                            placeholder="Appointment Time" data-target="#time1" data-toggle="datetimepicker" style="height: 55px;">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Make Appointment</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-- Pricing Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
@@ -367,7 +346,36 @@
         </div>
     </div>
     <!-- Team End -->
+    <script>
+    function buscarHorario() {
+        var fecha = document.getElementById('buscardate').value;
+        var buscarUrl = "<?= base_url('filtrardatoshorario/') ?>" + fecha;
+        window.location.href = buscarUrl;
+    }
+</script>
+    <script>
+    $(document).ready(function() {
+        // Captura el evento de cambio en el campo de fecha
+        $('#date').on('change.datetimepicker', function() {
+            var fecha = $(this).val();
 
+            // Realiza una llamada AJAX para obtener las especialidades disponibles
+            $.ajax({
+                url: 'obtenerEspecialidades.php',
+                type: 'POST',
+                data: { fecha: fecha },
+                success: function(response) {
+                    // Actualiza el contenido del div con las especialidades disponibles
+                    $('#especialidadesDisponibles').html(response);
+                },
+                error: function(xhr, status, error) {
+                    // Maneja el error en caso de que ocurra
+                    console.error(error);
+                }
+            });
+        });
+    });
+</script>
 
  
  

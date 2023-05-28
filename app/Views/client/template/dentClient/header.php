@@ -104,7 +104,7 @@
                 <a href="<?= base_url()?>admingeneral" class="nav-item nav-link">Contactos</a>
             </div>
             <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
-            <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">RESERVAR CITA</a>
+            <a href="<?= base_url() ?>reservarcita" class="btn btn-primary py-2 px-4 ms-3">RESERVAR CITA</a>
         </div>
     </nav>
     <!-- Navbar End -->
