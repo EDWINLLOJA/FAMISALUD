@@ -39,7 +39,7 @@ class Client extends BaseController
     {
         echo view('client/template/dentClient/header');
         echo view('client/cita/reservacita');
-        echo view('client/template/dentClient/footer');
+        echo view('client/template/dentClient/footercalendar');
         //return view('client/template/header');
         //return view('client/Dashboard');
         //return view('client/template/footer');
