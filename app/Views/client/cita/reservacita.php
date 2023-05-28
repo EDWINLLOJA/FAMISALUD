@@ -174,7 +174,7 @@
             // Agregar los eventos "pruebamodal" en diferentes fechas y horarios
             var eventData1 = {
                 title: 'Doc don Nayo',
-                start: '2023-05-28T10:00:00'
+                start: '2023-05-28T09:00:00'
             };
             var eventData2 = {
                 title: 'Doc Snyder',
@@ -182,11 +182,11 @@
             };
             var eventData3 = {
                 title: 'Doc La ali',
-                start: '2023-05-30T10:00:00'
+                start: '2023-05-30T11:00:00'
             };
             var eventData4 = {
                 title: 'Doc Dilmer',
-                start: '2023-05-31T10:00:00'
+                start: '2023-05-31T12:00:00'
             };
             $('#calendar').fullCalendar('renderEvent', eventData1, true);
             $('#calendar').fullCalendar('renderEvent', eventData2, true);
