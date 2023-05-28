@@ -27,9 +27,12 @@
         header: {
           left: 'prev,next today',
           center: 'title',
-          right: 'month,agendaWeek'
+          right: 'month,agendaWeek,agendaDay,listWeek'
         },
         defaultView: 'month',
+        views: {
+          listWeek: { buttonText: 'List' }
+        },
         selectable: true,
         select: function(start, end) {
           var eventData = {
@@ -60,6 +63,20 @@
                 eventData.duration = parseInt($('#duration').val());
 
                 $('#calendar').fullCalendar('renderEvent', eventData, true);
+
+                // Obtener los eventos en el día seleccionado
+                var events = $('#calendar').fullCalendar('clientEvents', function(event) {
+                  return moment(event.start).isSame(start, 'day');
+                });
+
+                // Asignar colores aleatorios a los eventos en el mismo día
+                var colors = ['#FF5733', '#C70039', '#900C3F', '#581845', '#FFC300', '#DAF7A6', '#FF5733', '#C70039', '#900C3F', '#581845'];
+                events.forEach(function(event, index) {
+                  var colorIndex = index % colors.length;
+                  event.color = colors[colorIndex];
+                  $('#calendar').fullCalendar('updateEvent', event);
+                });
+
                 $dialog.dialog('close');
               },
               'Cancelar': function() {
