@@ -71,12 +71,14 @@ $routes->get('borrar_estadocita/(:num)', 'Admin::borrar_estadocita/$1');
 //calendar
 $routes->get('calendar/', 'Admin::calendar');
 
+//$routes->get('listarcalendario/', 'Client::reservarcita');
+//$routes->post('/listarcalendario', 'EspecilidadController::listarCalendario');
+$routes->post('combo', 'Combos::combo');
 
-
-
+$routes->post('listarcalendario','EspecialidadController::listarcalendario');
 
 /// ---------------------------- FIN ADMINISTRADOR---------------
-
+$routes->post('especialidarhora','Combos::especialidarhora');
 
 
 

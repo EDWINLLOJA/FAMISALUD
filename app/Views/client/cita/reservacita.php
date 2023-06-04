@@ -38,15 +38,37 @@
                         <form>
                             <!--  Comienzo filtro inicial-->
                             <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Especialidad</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
-                                    </select>
-                                </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                   
+                                    <label for="ID_CATEGORIA">CATEGORIA</label>
 
+
+                                    <select id="cboespecialidad" class="form-select bg-light border-0"
+                                        style="height: 55px;">
+
+                                        <option selected>Especialidad</option>
+                                        <?php foreach ($especialidad as $especialidades) : ?>
+                                        <option required value="<?= $especialidades['idespecialidad']; ?>">
+                                            <td><?= $especialidades['Especialidad']; ?></td>
+                                        </option>
+                                        <?php endforeach; ?>
+
+                                    </select>
+                                    <br>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <label for="exampleFormControlSelect1">SUBCATEGORIA</label>
+                                <div id="select2lista"></div>
+
+                            </div>
+                            <div class="col-md-4">
+                                <label for="exampleFormControlSelect1">prueba2</label>
+                                <div id="select2lista1"></div>
+
+                            </div>
 
                                 <div class="col-12 col-sm-6">
                                     <div class="date" id="date1" data-target-input="nearest">
@@ -106,8 +128,8 @@
                                 <div class="col-12 col-sm-6">
                                     <select class="form-select bg-light border-0" style="height: 55px;">
                                         <option selected>Sexo</option>
-                                        <option value="1">F</option>
-                                        <option value="2">M</option>
+                                        <option value="F">F</option>
+                                        <option value="M">M</option>
 
                                     </select>
                                 </div>
@@ -123,7 +145,7 @@
     </div>
     <!-- Favicon -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog "  style="max-width: 50%;" role="document">
+        <div class="modal-dialog " style="max-width: 50%;" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="myModalLabel">Calendario en Modal</h5>
@@ -138,77 +160,30 @@
         </div>
     </div>
 
-    <script>
-        $(document).ready(function() {
-            $('#calendar').fullCalendar({
-                header: {
-                    left: 'prev,next today',
-                    center: 'title',
-                    right: 'month,agendaWeek'
-                },
-                defaultView: 'month',
-                selectable: true,
-                editable: false,
-                viewRender: function(view, element) {
-                    adjustModalHeight();
-                },
-                select: function(start, end) {
-                    console.log("Evento seleccionado desde " + start.format() + " hasta " + end.format());
-                    $('#calendar').fullCalendar('unselect');
-                },
-                eventClick: function(calEvent, jsEvent, view) {
-                    var selectedDate = moment(calEvent.start).format('YYYY-MM-DD');
-                    var selectedTime = moment(calEvent.start).format('HH:mm');
-                    var selectedEventTitle = calEvent.title;
+    <script type="text/javascript">
+				$(document).ready(function() {
+					$('#cboespecialidad').val();
+					recargarLista();
 
-                    $('#date1 input').val(selectedDate);
-                    $('#time1 input').val(selectedTime);
-                    $('#doctorField').val(selectedEventTitle);
-
-                    $('#myModal').modal('hide');
-                },
-                // Otras opciones y configuraciones
-                // ...
-            });
-
-            // Agregar los eventos "pruebamodal" en diferentes fechas y horarios
-            var eventData1 = {
-                title: 'Doc don Nayo',
-                start: '2023-05-28T09:00:00'
-            };
-            var eventData2 = {
-                title: 'Doc Snyder',
-                start: '2023-05-29T10:00:00'
-            };
-            var eventData3 = {
-                title: 'Doc La ali',
-                start: '2023-05-30T11:00:00'
-            };
-            var eventData4 = {
-                title: 'Doc Dilmer',
-                start: '2023-05-31T12:00:00'
-            };
-            $('#calendar').fullCalendar('renderEvent', eventData1, true);
-            $('#calendar').fullCalendar('renderEvent', eventData2, true);
-            $('#calendar').fullCalendar('renderEvent', eventData3, true);
-            $('#calendar').fullCalendar('renderEvent', eventData4, true);
-
-            $('.datecalendario-input').click(function () {
-                $('#myModal').modal('show');
-            });
-            $('#myModal').on('hidden.bs.modal', function (e) {
-                $('#calendar').fullCalendar('unselect');
-            });
-            $(window).resize(function() {
-                adjustModalHeight();
-            });
-
-            function adjustModalHeight() {
-                var calendarHeight = $('#calendar').fullCalendar('option', 'contentHeight');
-                $('.modal-body').height(calendarHeight);
-            }
-        });
-    </script>
+					$('#cboespecialidad').change(function() {
+						recargarLista();
+					});
+				})
+			</script>
+			<script type="text/javascript">
+				function recargarLista() {
+					$.ajax({
+						type: "POST",
+						url: "<?= base_url() ?>/combo",
+						data: "continente=" + $('#cboespecialidad').val(),
+						success: function(r) {
+							$('#select2lista').html(r);
+                            $('#select2lista1').html(r);
+                            
+						}
+					});
+				}
+			</script>
 </body>
 
 </html>

@@ -1,0 +1,44 @@
+CRITICAL - 2023-05-31 04:38:05 --> Undefined variable $especialidad
+in APPPATH\Views\client\cita\reservacita.php on line 43.
+ 1 APPPATH\Views\client\cita\reservacita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $especialidad', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Views\\client\\cita\\reservacita.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\FAMISALUD\\app\\Views\\client\\cita\\reservacita.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('client/cita/reservacita', [], true)
+ 5 APPPATH\Controllers\Client.php(41): view('client/cita/reservacita')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Client->reservarcita()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 04:38:16 --> Undefined variable $especialidad
+in APPPATH\Views\client\cita\reservacita.php on line 43.
+ 1 APPPATH\Views\client\cita\reservacita.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $especialidad', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Views\\client\\cita\\reservacita.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\FAMISALUD\\app\\Views\\client\\cita\\reservacita.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('client/cita/reservacita', [], true)
+ 5 APPPATH\Controllers\Client.php(41): view('client/cita/reservacita')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Client->reservarcita()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 06:00:11 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Client/EspecilidadController::listarcalendario"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Client/EspecilidadController::listarcalendario')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('listarcalendario')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('listarcalendario')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 06:00:55 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Client/EspecilidadController::listarcalendario"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Client/EspecilidadController::listarcalendario')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('listarcalendario')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('listarcalendario')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 08:00:36 --> Class "App\Controllers\CalendarioModel" not found
+in APPPATH\Controllers\EspecilidadController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\EspecilidadController->listarCalendario()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EspecilidadController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

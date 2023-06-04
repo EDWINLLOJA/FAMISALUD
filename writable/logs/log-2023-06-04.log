@@ -1,0 +1,380 @@
+CRITICAL - 2023-06-04 05:41:31 --> Unknown column 'undefined' in 'where clause'
+in APPPATH\Controllers\Combos.php on line 24.
+ 1 APPPATH\Controllers\Combos.php(24): mysqli_query(Object(mysqli), ' SELECT idHorario,turno FROM Horario where idespecialidad=undefined')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 05:41:34 --> Unknown column 'undefined' in 'where clause'
+in APPPATH\Controllers\Combos.php on line 24.
+ 1 APPPATH\Controllers\Combos.php(24): mysqli_query(Object(mysqli), ' SELECT idHorario,turno FROM Horario where idespecialidad=undefined')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 05:41:35 --> Unknown column 'undefined' in 'where clause'
+in APPPATH\Controllers\Combos.php on line 24.
+ 1 APPPATH\Controllers\Combos.php(24): mysqli_query(Object(mysqli), ' SELECT idHorario,turno FROM Horario where idespecialidad=undefined')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 05:41:37 --> Unknown column 'undefined' in 'where clause'
+in APPPATH\Controllers\Combos.php on line 24.
+ 1 APPPATH\Controllers\Combos.php(24): mysqli_query(Object(mysqli), ' SELECT idHorario,turno FROM Horario where idespecialidad=undefined')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 05:45:25 --> Access denied for user 'root'@'localhost' (using password: YES)
+in APPPATH\Controllers\Combos.php on line 19.
+ 1 APPPATH\Controllers\Combos.php(19): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'famisalud')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 05:45:28 --> Access denied for user 'root'@'localhost' (using password: YES)
+in APPPATH\Controllers\Combos.php on line 19.
+ 1 APPPATH\Controllers\Combos.php(19): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'famisalud')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 05:55:22 --> Undefined variable $bebida
+in APPPATH\Views\client\cita\reservacita.php on line 140.
+ 1 APPPATH\Views\client\cita\reservacita.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bebida', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Views\\client\\cita\\reservacita.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\FAMISALUD\\app\\Views\\client\\cita\\reservacita.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('client/cita/reservacita', [], true)
+ 5 APPPATH\Controllers\Client.php(58): view('client/cita/reservacita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Client->reservarcita()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 06:12:50 --> Undefined variable $especialidad
+in APPPATH\Views\client\cita\reservacita.php on line 46.
+ 1 APPPATH\Views\client\cita\reservacita.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $especialidad', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Views\\client\\cita\\reservacita.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\FAMISALUD\\app\\Views\\client\\cita\\reservacita.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('client/cita/reservacita', [], true)
+ 5 APPPATH\Controllers\Client.php(47): view('client/cita/reservacita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Client->reservarcita()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 06:17:31 --> Undefined variable $categoria
+in APPPATH\Views\client\cita\reservacita.php on line 49.
+ 1 APPPATH\Views\client\cita\reservacita.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoria', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Views\\client\\cita\\reservacita.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\FAMISALUD\\app\\Views\\client\\cita\\reservacita.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('client/cita/reservacita', [], true)
+ 5 APPPATH\Controllers\Client.php(49): view('client/cita/reservacita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Client->reservarcita()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 06:19:55 --> Undefined variable $especialidades
+in APPPATH\Views\client\cita\reservacita.php on line 51.
+ 1 APPPATH\Views\client\cita\reservacita.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $especialidades', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Views\\client\\cita\\reservacita.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\FAMISALUD\\app\\Views\\client\\cita\\reservacita.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('client/cita/reservacita', [], true)
+ 5 APPPATH\Controllers\Client.php(49): view('client/cita/reservacita', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Client->reservarcita()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 06:35:46 --> Data too long for column 'idespecialidadparam' at row 1
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), 'CALL Obtenerhorario(\' Especialidad\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 06:36:04 --> Data too long for column 'idespecialidadparam' at row 1
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), 'CALL Obtenerhorario(\' Especialidad\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:12:09 --> Incorrect datetime value: '' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:12:19 --> Incorrect datetime value: '' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:13:14 --> Incorrect datetime value: '' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:13:30 --> Incorrect datetime value: '' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:14:02 --> Incorrect datetime value: 'undefined' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'undefined\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:14:14 --> Incorrect datetime value: 'undefined' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'undefined\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:18:32 --> Incorrect datetime value: '' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:19:39 --> Incorrect datetime value: '-06-2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'-06-2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:20:05 --> Incorrect datetime value: '' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:28:27 --> Incorrect datetime value: '' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:29:33 --> Incorrect datetime value: '' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:30:46 --> Incorrect datetime value: '' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:30:52 --> Incorrect datetime value: '' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:37:29 --> Incorrect datetime value: '' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:39:29 --> Incorrect datetime value: '' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:41:06 --> Incorrect datetime value: '' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:42:17 --> Incorrect datetime value: '' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:46:09 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:47:11 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:47:11 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:47:24 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:47:24 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:48:01 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:48:01 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:48:14 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:48:14 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:49:11 --> Incorrect datetime value: '' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:49:31 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:50:49 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:50:49 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:52:02 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:53:36 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:54:30 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:55:16 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:55:49 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 07:58:22 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 08:00:45 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 08:03:02 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 08:05:12 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 08:05:15 --> Incorrect datetime value: '04/06/2023' for function str_to_date
+in APPPATH\Controllers\Combos.php on line 57.
+ 1 APPPATH\Controllers\Combos.php(57): mysqli_query(Object(mysqli), 'CALL ObtenerEspecialidadesPorFecha(\'04/06/2023\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->especialidarhora()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
