@@ -17,7 +17,7 @@ class CitaController extends BaseController
     //
     public function listaCita()
     {
-      $conexion = mysqli_connect('localhost', 'root', '1234', 'famisalud');
+      $conexion = mysqli_connect('localhost', 'root', 'ÑATOlu123@', 'famisalud');
 
       $sql = "CALL listar_citas()";
       $result = mysqli_query($conexion, $sql);

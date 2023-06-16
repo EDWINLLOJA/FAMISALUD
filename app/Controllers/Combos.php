@@ -16,7 +16,7 @@ class Combos extends Controller
 
     public function combo()
     { 
-        $conexion=mysqli_connect('localhost','root','1234','famisalud');
+        $conexion=mysqli_connect('localhost','root','ÑATOlu123@','famisalud');
     $continente=$_POST['continente'];
     
 
@@ -45,7 +45,7 @@ class Combos extends Controller
 
     public function especialidarhora()
     { 
-        $conexion=mysqli_connect('localhost','root','1234','famisalud');
+        $conexion=mysqli_connect('localhost','root','ÑATOlu123@','famisalud');
     $continente=$_POST['continente'];
     
 
@@ -73,7 +73,7 @@ class Combos extends Controller
 //DATOS DE CALENDARIO
 public function datoscalendario()
 {
-    $conexion = mysqli_connect('localhost', 'root', '1234', 'famisalud');
+    $conexion = mysqli_connect('localhost', 'root', 'ÑATOlu123@', 'famisalud');
     $continente = $_POST['continente'];
 
     $sql = "CALL Obtenercalendario($continente)";
@@ -99,7 +99,7 @@ public function datoscalendario()
 
 public function datospaciente()
 {
-    $conexion = mysqli_connect('localhost', 'root', '1234', 'famisalud');
+    $conexion = mysqli_connect('localhost', 'root', 'ÑATOlu123@', 'famisalud');
     $continente = $_POST['continente'];
 
     $sql = "SELECT * FROM paciente WHERE DNI='$continente'";

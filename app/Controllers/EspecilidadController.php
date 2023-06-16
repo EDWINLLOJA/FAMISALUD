@@ -10,7 +10,7 @@ class EspecialidadController extends BaseController
 public function listarcalendario()
 {
     
-    $conexion=mysqli_connect('localhost','root','1234','famisalud');
+    $conexion=mysqli_connect('localhost','root','ÑATOlu123@','famisalud');
     $continente=$_POST['continente'];
     
         $sql="SELECT * FROM Horario where idespecialidad='$continente'";
