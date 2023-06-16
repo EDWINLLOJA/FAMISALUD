@@ -1,0 +1,1274 @@
+CRITICAL - 2023-06-14 04:22:58 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:22:58 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-14 04:31:49 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`)) in C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCi...', 0)
+#1 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCi...')
+#2 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCi...')
+#3 C:\xampp\htdocs\FAMISALUD\app\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCi...', Array)
+#4 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+#5 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+#6 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAMISALUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 04:31:49 --> Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 4 APPPATH\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCita(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:31:51 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:31:51 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:32:07 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:32:07 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-14 04:33:43 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`)) in C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCi...', 0)
+#1 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCi...')
+#2 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCi...')
+#3 C:\xampp\htdocs\FAMISALUD\app\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCi...', Array)
+#4 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+#5 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+#6 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAMISALUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 04:33:43 --> Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 4 APPPATH\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCita(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:33:46 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:33:46 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:34:42 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:34:42 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:35:17 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:35:17 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:43:25 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:43:25 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:43:35 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:43:35 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:45:32 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:45:32 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-14 04:45:37 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`)) in C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCi...', 0)
+#1 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCi...')
+#2 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCi...')
+#3 C:\xampp\htdocs\FAMISALUD\app\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCi...', Array)
+#4 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+#5 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+#6 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAMISALUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 04:45:37 --> Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 4 APPPATH\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCita(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:45:39 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:45:39 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-14 04:45:41 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`)) in C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCi...', 0)
+#1 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCi...')
+#2 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCi...')
+#3 C:\xampp\htdocs\FAMISALUD\app\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCi...', Array)
+#4 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+#5 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+#6 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAMISALUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 04:45:41 --> Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 4 APPPATH\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCita(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:45:42 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:45:42 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-14 04:45:48 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`)) in C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCi...', 0)
+#1 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCi...')
+#2 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCi...')
+#3 C:\xampp\htdocs\FAMISALUD\app\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCi...', Array)
+#4 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+#5 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+#6 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAMISALUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 04:45:48 --> Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 4 APPPATH\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCita(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:45:50 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:45:50 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:46:20 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:46:20 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:46:53 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:46:53 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-14 04:46:55 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`)) in C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCi...', 0)
+#1 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCi...')
+#2 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCi...')
+#3 C:\xampp\htdocs\FAMISALUD\app\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCi...', Array)
+#4 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+#5 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+#6 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAMISALUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 04:46:55 --> Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 4 APPPATH\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCita(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:47:19 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:47:19 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:48:06 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:48:06 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-14 04:48:08 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`)) in C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCi...', 0)
+#1 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCi...')
+#2 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCi...')
+#3 C:\xampp\htdocs\FAMISALUD\app\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCi...', Array)
+#4 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+#5 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+#6 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAMISALUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 04:48:08 --> Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 4 APPPATH\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCita(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:48:10 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:48:10 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:48:26 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:48:26 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-14 04:48:28 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`)) in C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCi...', 0)
+#1 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCi...')
+#2 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCi...')
+#3 C:\xampp\htdocs\FAMISALUD\app\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCi...', Array)
+#4 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+#5 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+#6 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAMISALUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 04:48:28 --> Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 4 APPPATH\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCita(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:49:40 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:49:40 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-14 04:49:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`)) in C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCi...', 0)
+#1 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCi...')
+#2 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCi...')
+#3 C:\xampp\htdocs\FAMISALUD\app\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCi...', Array)
+#4 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+#5 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+#6 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAMISALUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 04:49:42 --> Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 4 APPPATH\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCita(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:49:44 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:49:44 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:49:45 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:49:45 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-14 04:49:48 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`)) in C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCi...', 0)
+#1 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCi...')
+#2 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCi...')
+#3 C:\xampp\htdocs\FAMISALUD\app\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCi...', Array)
+#4 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+#5 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+#6 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAMISALUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-14 04:49:48 --> Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCita(\'\', \'\', \'\', 1, \'\', \'\', \'1970-01-01 00:00:00\', \'\', \'\', NULL)')
+ 4 APPPATH\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCita(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:49:50 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:49:50 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:50:48 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:50:48 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:51:02 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:51:02 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:51:46 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:51:46 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:55:05 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:55:05 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:57:19 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:57:19 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:01:15 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:01:15 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:02:53 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:02:53 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:04:10 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:04:10 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:04:53 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:04:53 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:05:14 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:05:14 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:07:55 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:07:55 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:08:38 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:08:38 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:09:12 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:09:12 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:10:08 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:10:08 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:11:20 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:11:20 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:13:57 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:13:57 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:14:49 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:14:49 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:15:44 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:15:44 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:17:07 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:17:07 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:17:18 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:17:18 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:17:36 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:17:36 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:18:59 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:18:59 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:19:42 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:19:42 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:20:15 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:20:15 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:21:53 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:21:53 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:22:09 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:22:09 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:23:02 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:23:02 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:23:44 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:23:44 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:27:33 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 05:27:33 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:06:25 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:06:25 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:10:40 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:10:40 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:16:40 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:16:40 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:18:56 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:18:56 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:19:02 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:19:02 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:20:07 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:20:07 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:35:40 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:35:40 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:40:21 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:40:21 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:43:42 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:43:42 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:44:12 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:44:12 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:48:35 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:48:35 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:49:16 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:49:16 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:49:38 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:49:38 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:50:35 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:50:35 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:54:18 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:54:18 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:56:28 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:56:28 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:56:56 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:56:56 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:00:06 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:00:06 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:00:54 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:00:54 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:03:47 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:03:47 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:06:28 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:06:28 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:06:58 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:06:58 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:08:39 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:08:39 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:10:28 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:10:28 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:11:08 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:11:08 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

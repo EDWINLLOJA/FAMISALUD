@@ -37,8 +37,14 @@ $routes->get('/', 'Client::index');
 $routes->get('nosotros/', 'Client::nosotros');
 
 //--cita----
+
+
 $routes->get('reservarcita/', 'Client::reservarcita');
 
+$routes->post('datospaciente', 'Combos::datospaciente');
+
+
+$routes->post('guardar_cliente_cita', 'CitaController::guardar_cliente_cita');
 
 
 //Horaario
@@ -47,10 +53,26 @@ $routes->get('reservarcita/', 'Client::reservarcita');
 
 $routes->get('filtrardatoshorario/', 'HorarioController::filtrardatoshorario');
 
+//pago
+
+$routes->get('pagocliente/', 'PagoController::pagocliente');
+
+
+
 
 //--------------------------FIN CLIENTE--------
 
 //-------------------URL ADMINISTRADOR--------------
+
+
+
+//--cita----
+$routes->get('listaCita/', 'CitaController::listaCita');
+
+//fin
+
+
+
 $routes->get('admin/', 'Home::admin');
 $routes->get('login/', 'Login::login');
 
@@ -59,14 +81,16 @@ $routes->get('cita/', 'Admin::cita');
 $routes->get('admingeneral/', 'Admin::admingeneral');
 //---Crear administrador---
 
+$routes->get('pagocliente1/(:any)', 'PagoController::pagocliente1/$1');
 
 
 //--estado cita----
-$routes->get('crear_estado_cita/', 'Admin::crear_estado_cita');
-$routes->post('guardar_estadocita/', 'Admin::guardar_estadocita');
-$routes->get('editar_estadocita/(:num)', 'Admin::editar_estadocita/$1');
-$routes->post('actualizar_estadocita', 'Admin::actualizar_estadocita');
-$routes->get('borrar_estadocita/(:num)', 'Admin::borrar_estadocita/$1');
+$routes->get('lista_estado_cita/', 'EstadoCitaController::lista_estado_cita');
+$routes->get('crear_estado_cita/', 'EstadoCitaController::crear_estado_cita');
+$routes->post('guardar_estadocita/', 'EstadoCitaController::guardar_estadocita');
+$routes->get('editar_estadocita/(:num)', 'EstadoCitaController::editar_estadocita/$1');
+$routes->post('actualizar_estadocita', 'EstadoCitaController::actualizar_estadocita');
+$routes->get('borrar_estadocita/(:num)', 'EstadoCitaController::borrar_estadocita/$1');
 
 //calendar
 $routes->get('calendar/', 'Admin::calendar');
@@ -75,7 +99,13 @@ $routes->get('calendar/', 'Admin::calendar');
 //$routes->post('/listarcalendario', 'EspecilidadController::listarCalendario');
 $routes->post('combo', 'Combos::combo');
 
+$routes->post('datoscalendario', 'Combos::datoscalendario');
+
+
+
+
 $routes->post('listarcalendario','EspecialidadController::listarcalendario');
+$routes->post('calendariomodal', 'EspecialidadController::calendariomodal');
 
 /// ---------------------------- FIN ADMINISTRADOR---------------
 $routes->post('especialidarhora','Combos::especialidarhora');

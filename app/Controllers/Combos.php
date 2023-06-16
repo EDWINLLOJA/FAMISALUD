@@ -20,7 +20,7 @@ class Combos extends Controller
     $continente=$_POST['continente'];
     
 
-    $sql="CALL ObtenerEspecialidadesPorFecha('20-06-2023')";
+    $sql=" CALL Obtenercalendario($continente)";
 
 
 
@@ -68,9 +68,49 @@ class Combos extends Controller
 
         
     }
+
+
+//DATOS DE CALENDARIO
+public function datoscalendario()
+{
+    $conexion = mysqli_connect('localhost', 'root', '1234', 'famisalud');
+    $continente = $_POST['continente'];
+
+    $sql = "CALL Obtenercalendario($continente)";
+    $result = mysqli_query($conexion, $sql);
+
+    $eventos = array();
+
+    while ($row = mysqli_fetch_assoc($result)) {
+        $evento = array(
+            'title' => $row['nombreespecialista'],
+            'start' => $row['fecha'] . 'T' . $row['hora'],
+            'idhorario' => $row['idHorario'],
+            'idpersonal' => $row['idPersonal'],
+            'idespecialidad' => $row['idespecialidad']
+        );
+
+        $eventos[] = $evento;
+    }
+
+    echo json_encode($eventos);
+}
+
+
+public function datospaciente()
+{
+    $conexion = mysqli_connect('localhost', 'root', '1234', 'famisalud');
+    $continente = $_POST['continente'];
+
+    $sql = "SELECT * FROM paciente WHERE DNI='$continente'";
+    $result = mysqli_query($conexion, $sql);
+
+    $paciente = mysqli_fetch_assoc($result);
+
+    // Generar respuesta JSON con los datos del paciente
+    echo json_encode($paciente);
+}
     
-
-
 
 
 }

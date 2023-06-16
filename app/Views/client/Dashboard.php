@@ -1,3 +1,5 @@
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.min.css' />
 <!-- Full Screen Search Start -->
 <div class="modal fade" id="searchModal" tabindex="-1">
     <div class="modal-dialog modal-fullscreen">
@@ -84,8 +86,8 @@
                     <h3 class="text-white mb-3">Buscar doctor</h3>
                     <div class="date mb-3" id="dateespecialidad" value="buscardate" data-target-input="nearest">
                         <input type="text" class="form-control bg-light border-0 datetimepicker-input"
-                            placeholder="Appointment Date" data-target="#date"  id="dateespecialidadinput" data-toggle="datetimepicker"
-                            style="height: 40px;">
+                            placeholder="Appointment Date" data-target="#date" id="dateespecialidadinput"
+                            data-toggle="datetimepicker" style="height: 40px;">
                     </div>
 
 
@@ -93,7 +95,7 @@
 
                     </div>
 
-                    <a class="btn btn-light" href="#">Buscar</a>
+                    <button id="openCalendarButton" class="btn btn-light">Abrir Calendario</button>
                 </div>
             </div>
             <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
@@ -355,39 +357,107 @@
     </div>
 </div>
 <!-- Team End -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+
+<!-- Favicon -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog " style="max-width: 50%;" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="myModalLabel">Calendario en Modal</h5>
+                <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>-->
+            </div>
+            <div class="modal-body">
+                <div id="calendar"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" style="max-width: 50%;" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="myModalLabel">Calendario en Modal</h5>
+            </div>
+            <div class="modal-body">
+                <div id="calendar"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-  <script>
-  // Configuración del calendario
-  flatpickr("#dateespecialidadinput", {
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.min.js'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
+
+
+<script>
+// Configuración del calendario
+flatpickr("#dateespecialidadinput", {
     enableTime: false,
     dateFormat: "d-m-Y",
     defaultDate: "today", // Establece la fecha por defecto como la fecha actual
     onChange: function(selectedDates, dateStr, instance) {
-      recargarLista();
+        recargarLista();
     }
-  });
+});
 
-  $(document).ready(function() {
+$(document).ready(function() {
+    //listar modal
+
+
+    //FIN DE LISTA MODAL
+
+
 
     recargarListainicio(); // Llamada inicial a la función recargarLista()
-  });
 
-  function recargarLista() {
+
+
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function recargarLista() {
     $.ajax({
-      type: "POST",
-      url: "<?= base_url() ?>/especialidarhora",
-      data: "continente=" + $('#dateespecialidadinput').val(),
-      success: function(r) {
-        $('#select2lista').html(r);
-      }
+        type: "POST",
+        url: "<?= base_url() ?>/especialidarhora",
+        data: "continente=" + $('#dateespecialidadinput').val(),
+        success: function(r) {
+            $('#select2lista').html(r);
+        }
     });
-  }
+}
 
 
-  //INICIAR FECHA ACTUAL PARA INICIO
-  function obtenerFechaActual() {
+//INICIAR FECHA ACTUAL PARA INICIO
+function obtenerFechaActual() {
     var fecha = new Date();
     var dia = fecha.getDate();
     var mes = fecha.getMonth() + 1;
@@ -395,27 +465,79 @@
 
     // Formatear los componentes de la fecha con dos dígitos si es necesario
     if (dia < 10) {
-      dia = '0' + dia;
+        dia = '0' + dia;
     }
     if (mes < 10) {
-      mes = '0' + mes;
+        mes = '0' + mes;
     }
 
     return dia + '-' + mes + '-' + anio;
-  }
+}
 
-  function recargarListainicio() {
+function recargarListainicio() {
     var fechaActual = obtenerFechaActual();
     $.ajax({
-      type: "POST",
-      url: "<?= base_url() ?>/especialidarhora",
-      data: "continente=" + fechaActual,
-      success: function(r) {
-        $('#select2lista').html(r);
-      }
+        type: "POST",
+        url: "<?= base_url() ?>/especialidarhora",
+        data: "continente=" + fechaActual,
+        success: function(r) {
+            $('#select2lista').html(r);
+        }
     });
-  }
+}
 
 //FIN DE FECHA ACTUAL APRA INICIO
+</script>
 
+<script>
+$(document).ready(function() {
+    $('#openCalendarButton').click(function() {
+        $('#myModal').modal('show');
+    });
+
+    $('#calendar').fullCalendar({
+        header: {
+            left: 'prev,next today',
+            center: 'title',
+            right: 'month,agendaWeek'
+        },
+        defaultView: 'month',
+        selectable: true,
+        editable: false,
+        select: function(start, end) {
+            console.log("Evento seleccionado desde " + start.format() + " hasta " + end.format());
+            $('#calendar').fullCalendar('unselect');
+        },
+        eventClick: function(calEvent, jsEvent, view) {
+            var selectedDate = moment(calEvent.start).format('YYYY-MM-DD');
+            var selectedTime = moment(calEvent.start).format('HH:mm');
+            var selectedEventTitle = calEvent.title;
+
+            // Realizar las acciones deseadas con los datos del evento seleccionado
+            // ...
+
+            // Cerrar el modal si es necesario
+            // $('#myModal').modal('hide');
+        },
+        // Otras opciones y configuraciones
+        // ...
+    });
+
+    // Agregar eventos al calendario
+    var eventData1 = {
+        title: 'Evento 1',
+        start: '2023-06-01'
+    };
+    var eventData2 = {
+        title: 'Evento 2',
+        start: '2023-06-05'
+    };
+    var eventData3 = {
+        title: 'Evento 3',
+        start: '2023-06-10'
+    };
+    $('#calendar').fullCalendar('renderEvent', eventData1, true);
+    $('#calendar').fullCalendar('renderEvent', eventData2, true);
+    $('#calendar').fullCalendar('renderEvent', eventData3, true);
+});
 </script>

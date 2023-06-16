@@ -52,7 +52,7 @@
                         <div class="row">
                             <div class="col-8">
                                 <div class="numbers">
-                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Proveedores</p>
+                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Medicos</p>
                                     <h5 class="font-weight-bolder"></h5>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@
                         <div class="row">
                             <div class="col-8">
                                 <div class="numbers">
-                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Productos</p>
+                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Citas</p>
                                     <h5 class="font-weight-bolder"></h5>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@
                         <div class="row">
                             <div class="col-8">
                                 <div class="numbers">
-                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Ventas</p>
+                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Ingreso</p>
                                     <h5 class="font-weight-bolder"><i class="fa-solid fa-dollar-sign h5 mb-0"></i></h5>
                                 </div>
                             </div>
@@ -140,7 +140,7 @@
                 <div class="card z-index-2 h-100">
                     <div class="card-header pb-0 pt-3 bg-transparent">
                         <div class="d-md-flex">
-                            <h6 class="text">Resumen de ventas</h6>
+                            <h6 class="text">Resumen de citas</h6>
                             <dvi class="ms-auto">
                                 <div class="dropdown">
                                     <button class="btn bg-gradient-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">{{ year }}</button>

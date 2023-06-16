@@ -91,7 +91,7 @@
     <!-- Template Javascript -->
     <script src="<?= base_url() ?>/public/dentClient/assets/js/main.js"></script>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
 
 

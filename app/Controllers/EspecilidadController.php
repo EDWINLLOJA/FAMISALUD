@@ -29,4 +29,10 @@ public function listarcalendario()
 
 }
 
+
+public function calendariomodal()
+{
+    return view('client/cita/calendario');
+}
+
 }

@@ -20,7 +20,7 @@
     <aside class="sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-4" id="sidenav-main">
         <div class="sidenav-scrollbar">
             <div class="sidenav-header">
-                <a class="navbar-brand m-0" href="<?= base_url('admin_general'); ?>">
+                <a class="navbar-brand m-0" href="<?= base_url('admingeneral'); ?>">
                     <img src="<?= base_url('/public/admin/assets/img/icon/icon.png'); ?>" class="navbar-brand-img h-100">
                     <span class="ms-1 font-weight-bold">Administrador</span>
                 </a>
@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse w-auto h-auto ps" id="sidenav-collapse-main">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('admin_general'); ?>" :class="dashboardClass">
+                        <a class="nav-link" href="<?= base_url('admingeneral'); ?>" :class="dashboardClass">
                             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                                 <i class="fa-solid fa-chart-pie text-dark text-sm opacity-10"></i>
                             </div>
@@ -54,7 +54,7 @@
                     </li>
                     <li class="nav-item">
                     
-                    <a class="nav-link" href="<?= base_url('cita'); ?>">
+                    <a class="nav-link" href="<?= base_url('lista_estado_cita'); ?>">
                             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                                 <i class="fas fa-seedling text-dark text-sm opacity-10"></i>
                             </div>
@@ -63,11 +63,11 @@
                     </li>
                     <li class="nav-item">
                     
-                    <a class="nav-link" href="<?= base_url('admin_cat'); ?>">
+                    <a class="nav-link" href="<?= base_url('listaCita'); ?>">
                             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                                 <i class="fas fa-calendar-alt text-dark text-sm opacity-10"></i>
                             </div>
-                            <span class="nav-link-text">CATEGORIA</span>
+                            <span class="nav-link-text">CITAS RESERVADAS</span>
                         </a>
                     </li>
                     <li class="nav-item">

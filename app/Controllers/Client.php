@@ -13,7 +13,7 @@ class Client extends BaseController
         $data['Horario'] = $Horario->findAll();
         echo view('client/template/dentClient/header');
         echo view('client/Dashboard',$data);
-        echo view('client/template/dentClient/footer');
+        echo view('client/template/dentClient/footercalendar');
         //return view('client/template/header');
         //return view('client/Dashboard');
         //return view('client/template/footer');
@@ -27,7 +27,7 @@ class Client extends BaseController
     {
         echo view('client/template/dentClient/header');
         echo view('client/nosotros');
-        echo view('client/template/dentClient/footer');
+        echo view('client/template/dentClient/footercalendar');
         //return view('client/template/header');
         //return view('client/Dashboard');
         //return view('client/template/footer');

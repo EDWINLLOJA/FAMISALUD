@@ -7,5 +7,15 @@ class Cita extends Model{
     protected $table      = 'estadocita';
     protected $primaryKey ='idestadoCita';
     protected $allowedFields =['nombre','descripcion'];
+
+
+
+
+
+
+
+
+
+    
 }
 

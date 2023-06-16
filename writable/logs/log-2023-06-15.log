@@ -1,0 +1,632 @@
+CRITICAL - 2023-06-15 04:33:17 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:33:17 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:33:35 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:33:35 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:42:09 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:42:09 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:42:12 --> Invalid file: "admin/layout/head.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/layout/head.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/layout/head', [], true)
+ 3 APPPATH\Controllers\Admin.php(16): view('admin/layout/head')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:42:14 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:42:14 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:42:42 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:42:42 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:43:17 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:43:17 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:43:44 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:43:44 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:56:27 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 04:56:27 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:08:09 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:08:09 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-15 05:08:35 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE famisalud.InsertarCita; expected 11, got 10 in C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCi...', 0)
+#1 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCi...')
+#2 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCi...')
+#3 C:\xampp\htdocs\FAMISALUD\app\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCi...', Array)
+#4 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+#5 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+#6 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAMISALUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-15 05:08:35 --> Incorrect number of arguments for PROCEDURE famisalud.InsertarCita; expected 11, got 10
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCita(\'32\', \'1\', \'1\', 2, \'666\', \'ddd\', \'2000-05-26 00:00:00\', \'1@gmail.com\', \'66\', \'M\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCita(\'32\', \'1\', \'1\', 2, \'666\', \'ddd\', \'2000-05-26 00:00:00\', \'1@gmail.com\', \'66\', \'M\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCita(\'32\', \'1\', \'1\', 2, \'666\', \'ddd\', \'2000-05-26 00:00:00\', \'1@gmail.com\', \'66\', \'M\')')
+ 4 APPPATH\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCita(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:09:32 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:09:32 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:09:36 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:09:36 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-15 05:10:02 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE famisalud.InsertarCita; expected 11, got 10 in C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCi...', 0)
+#1 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCi...')
+#2 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCi...')
+#3 C:\xampp\htdocs\FAMISALUD\app\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCi...', Array)
+#4 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+#5 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+#6 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAMISALUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-15 05:10:02 --> Incorrect number of arguments for PROCEDURE famisalud.InsertarCita; expected 11, got 10
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCita(\'32\', \'1\', \'1\', 2, \'666\', \'maria jesus lucero\', \'2000-05-26 00:00:00\', \'1@gmail.com\', \'666\', \'M\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCita(\'32\', \'1\', \'1\', 2, \'666\', \'maria jesus lucero\', \'2000-05-26 00:00:00\', \'1@gmail.com\', \'666\', \'M\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCita(\'32\', \'1\', \'1\', 2, \'666\', \'maria jesus lucero\', \'2000-05-26 00:00:00\', \'1@gmail.com\', \'666\', \'M\')')
+ 4 APPPATH\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCita(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-15 05:10:31 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE famisalud.InsertarCita; expected 11, got 10 in C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCi...', 0)
+#1 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCi...')
+#2 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCi...')
+#3 C:\xampp\htdocs\FAMISALUD\app\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCi...', Array)
+#4 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+#5 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+#6 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAMISALUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-15 05:10:31 --> Incorrect number of arguments for PROCEDURE famisalud.InsertarCita; expected 11, got 10
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCita(\'32\', \'1\', \'1\', 2, \'666\', \'maria jesus lucero\', \'2000-05-26 00:00:00\', \'1@gmail.com\', \'666\', \'M\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCita(\'32\', \'1\', \'1\', 2, \'666\', \'maria jesus lucero\', \'2000-05-26 00:00:00\', \'1@gmail.com\', \'666\', \'M\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCita(\'32\', \'1\', \'1\', 2, \'666\', \'maria jesus lucero\', \'2000-05-26 00:00:00\', \'1@gmail.com\', \'666\', \'M\')')
+ 4 APPPATH\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCita(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:15:53 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:15:53 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:15:54 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:15:54 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-15 05:16:19 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE famisalud.InsertarCita; expected 10, got 11 in C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCi...', 0)
+#1 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCi...')
+#2 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCi...')
+#3 C:\xampp\htdocs\FAMISALUD\app\Controllers\CitaController.php(136): CodeIgniter\Database\BaseConnection->query('CALL InsertarCi...', Array)
+#4 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+#5 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+#6 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAMISALUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-15 05:16:19 --> Incorrect number of arguments for PROCEDURE famisalud.InsertarCita; expected 10, got 11
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCita(\'32\', \'1\', \'1\', 2, \'66\', \'66\', \'2000-05-26 00:00:00\', \'maria@gmail.com\', \'66\', \'M\', @idCita)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCita(\'32\', \'1\', \'1\', 2, \'66\', \'66\', \'2000-05-26 00:00:00\', \'maria@gmail.com\', \'66\', \'M\', @idCita)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCita(\'32\', \'1\', \'1\', 2, \'66\', \'66\', \'2000-05-26 00:00:00\', \'maria@gmail.com\', \'66\', \'M\', @idCita)')
+ 4 APPPATH\Controllers\CitaController.php(136): CodeIgniter\Database\BaseConnection->query('CALL InsertarCita(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, @idCita)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:20:00 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:20:00 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:20:01 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:20:01 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:20:20 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:20:20 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:22:14 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:22:14 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:23:36 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:23:36 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-15 05:23:44 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`)) in C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\FAMISALUD\system\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCi...', 0)
+#1 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCi...')
+#2 C:\xampp\htdocs\FAMISALUD\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCi...')
+#3 C:\xampp\htdocs\FAMISALUD\app\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCi...', Array)
+#4 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+#5 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+#6 C:\xampp\htdocs\FAMISALUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAMISALUD\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-15 05:23:44 --> Cannot add or update a child row: a foreign key constraint fails (`famisalud`.`cita`, CONSTRAINT `cita_ibfk_1` FOREIGN KEY (`idHorario`) REFERENCES `horario` (`idHorario`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('CALL InsertarCita(\'\', \'\', \'\', 2, \'55\', \'55\', \'2000-05-26 00:00:00\', \'1@gmail.com\', \'55\', \'M\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CALL InsertarCita(\'\', \'\', \'\', 2, \'55\', \'55\', \'2000-05-26 00:00:00\', \'1@gmail.com\', \'55\', \'M\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CALL InsertarCita(\'\', \'\', \'\', 2, \'55\', \'55\', \'2000-05-26 00:00:00\', \'1@gmail.com\', \'55\', \'M\')')
+ 4 APPPATH\Controllers\CitaController.php(135): CodeIgniter\Database\BaseConnection->query('CALL InsertarCita(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:23:46 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:23:46 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:23:53 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:23:53 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:33:35 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:33:35 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:33:36 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:33:36 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:36:23 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:36:23 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:36:40 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:36:43 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:36:44 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:36:44 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:36:56 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:36:56 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:37:14 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:37:39 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:37:41 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:37:42 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:37:43 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:37:43 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:37:43 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:37:43 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:38:06 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:42:51 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:42:51 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:43:02 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:45:09 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:45:09 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:45:23 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:45:42 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:45:53 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:45:53 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:46:15 --> Undefined property: App\Controllers\CitaController::$session
+in APPPATH\Controllers\CitaController.php on line 149.
+ 1 APPPATH\Controllers\CitaController.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$session', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:50:18 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 28.
+ 1 APPPATH\Controllers\Combos.php(28): mysqli_query(Object(mysqli), ' CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->combo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:50:18 --> Unknown column 'Especialidad' in 'field list'
+in APPPATH\Controllers\Combos.php on line 80.
+ 1 APPPATH\Controllers\Combos.php(80): mysqli_query(Object(mysqli), 'CALL Obtenercalendario(Especialidad)')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Combos->datoscalendario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Combos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 05:50:36 --> Undefined property: App\Controllers\CitaController::$output
+in APPPATH\Controllers\CitaController.php on line 152.
+ 1 APPPATH\Controllers\CitaController.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CitaController::$output', 'C:\\xampp\\htdocs\\FAMISALUD\\app\\Controllers\\CitaController.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CitaController->guardar_cliente_cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CitaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

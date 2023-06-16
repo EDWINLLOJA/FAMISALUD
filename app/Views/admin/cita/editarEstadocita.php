@@ -10,7 +10,7 @@
                         </div>
                     </div>
                     <form  action="<?=site_url('/actualizar_estadocita') ?>" method="post" enctype="multipart/form-data">
-                    <input type="hidden" name="idestadoCita" value="<?= $estadocita['idestadoCita'];?>">
+                    <input type="hidden" name="idestadoCita" value="">
                     
                     <div class="card-body">
                             <div class="row">

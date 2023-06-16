@@ -44,8 +44,13 @@
 
  <!-- ---------------------------ESOS SON LSO ESTILOS DE KliCLient -->
 
-      <!-- Libraries Stylesheet -->
-   
+      <!-- libreria toast-->
+   <!-- En el head de tu documento HTML -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+<!-- Al final del body de tu documento HTML -->
+
+
 
     <!-- Template Stylesheet -->
 
@@ -106,7 +111,7 @@
             <div class="navbar-nav ms-auto py-0">
                 <a href="<?= base_url() ?>" class="nav-item nav-link active">Home</a>
                 <a href="<?= base_url() ?>nosotros" class="nav-item nav-link">Nosotros</a>
-                <a href="service.html" class="nav-item nav-link">Servicios</a>
+                <a href="<?= base_url() ?>pagocliente" class="nav-item nav-link">Servicios</a>
                 <a href="<?= base_url()?>dashboard" class="nav-item nav-link">Login</a>
                 <a href="<?= base_url()?>admingeneral" class="nav-item nav-link">Contactos</a>
             </div>
