@@ -29,7 +29,7 @@
 <body>
 
 
-    <input type="textx" name="idhorario" value="<?= $idHorario ?>">
+
     <main class="wrapper ">
 
         <div class="card">
@@ -171,11 +171,7 @@
 
     });
 
-    $(window).on('beforeunload', function() {
-    if (!submitted) {
-      return '¿Estás seguro de abandonar la página? El pago aún no se ha procesado.';
-    }
-  });
+   
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.0.2/cleave.min.js"
