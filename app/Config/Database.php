@@ -28,7 +28,7 @@ class Database extends Config
         'DSN'      => '',
         'hostname' => 'localhost',
         'username' => 'root',
-        'password' => '1234',
+        'password' => 'ÑATOlu123@',
         'database' => 'FAMISALUD',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Cita</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulario de Cita</h2>
+        <form>
+            <div class="form-group">
+                <label for="dateespecialidad">Fecha de la Cita:</label>
+                <input type="text" class="form-control" id="dateespecialidad" placeholder="Fecha de la Cita" />
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#dateespecialidad').datetimepicker({
+                format: 'DD-MM-YYYY'
+            });
+
+            $('#dateespecialidad').on('change.datetimepicker', function() {
+                recargarLista();
+            });
+        });
+
+        function recargarLista() {
+            // Aquí puedes agregar la lógica para recargar la lista o realizar acciones adicionales
+            console.log('La fecha ha cambiado');
+        }
+    </script>
+</body>
+</html>
